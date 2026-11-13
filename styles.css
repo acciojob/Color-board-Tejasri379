@@ -21,7 +21,7 @@
             gap: 5px;
             aspect-ratio: ;
         }
-        .box{
+        .square{
             background-color: gray;
             border-radius: 20%;
             cursor: pointer;
