@@ -22,7 +22,7 @@ for (let i = 0; i < 800; i++) {
     div.addEventListener("mouseout", function() {
     setTimeout(function() {
         div.style.backgroundColor = "gray";
-    }, 2000);
+    }, 1000);
 });
 
     fragment.appendChild(div);
