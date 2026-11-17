@@ -20,11 +20,12 @@ body {
     background-color: black;
     grid-template-columns: repeat(40, 1fr);
     grid-template-rows: repeat(20, 1fr);
+	gap:3px;
 }
 
 .square {
-    background-color: gray;
-    border-radius: 20%;
+    background-color: #1D1D1D;
+    /* border-radius: 20%; */
     cursor: pointer;
-    transition: background-color 1s ease;
+    transition: background 1s;
 }

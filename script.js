@@ -1,16 +1,10 @@
 
 const container = document.querySelector(".container");
-
 const fragment = document.createDocumentFragment();
-
 for (let i = 0; i < 800; i++) {
-
     const div = document.createElement("div");
-
     div.classList.add("square");
-
     div.addEventListener("mouseover", function() {
-
         const red = Math.floor(Math.random() * 256);
         const green = Math.floor(Math.random() * 256);
         const blue = Math.floor(Math.random() * 256);
@@ -18,10 +12,9 @@ for (let i = 0; i < 800; i++) {
         div.style.backgroundColor = `rgb(${red}, ${green}, ${blue})`;
 
     });
-
     div.addEventListener("mouseout", function() {
     setTimeout(function() {
-        div.style.backgroundColor = "gray";
+        div.style.backgroundColor = "#1D1D1D";
     }, 1000);
 });
 
